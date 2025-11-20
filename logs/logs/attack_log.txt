@@ -1,0 +1,2 @@
+Timestamp | Packets Sent | Drop Rate (%) | Uptime (%)
+2025-11-19 22:40 | 1000 | 0.02 | 99.98
