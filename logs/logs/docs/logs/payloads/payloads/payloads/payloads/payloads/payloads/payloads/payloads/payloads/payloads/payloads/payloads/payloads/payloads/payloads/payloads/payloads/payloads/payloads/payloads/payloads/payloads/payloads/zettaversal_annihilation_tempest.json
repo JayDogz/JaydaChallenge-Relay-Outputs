@@ -1,0 +1,21 @@
+{
+  "test_name": "Zettaversal Annihilation Tempest",
+  "packets": 13_860_000,
+  "burst_rate": "22000/sec",
+  "duration": "630s",
+  "payload_type": "zettaversal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy annihilation", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "infinite_adaptive_pq_ml"
+  },
+  "tempest_drops": {
+    "enabled": true,
+    "rate": "105%",
+    "pattern": "zettaversal-annihilation"
+  },
+  "expected_mttr": "<23s",
+  "expected_loss": "<21%"
+}
