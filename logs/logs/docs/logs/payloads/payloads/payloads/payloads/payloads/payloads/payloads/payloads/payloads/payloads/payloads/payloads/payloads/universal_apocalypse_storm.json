@@ -1,0 +1,21 @@
+{
+  "test_name": "Universal Apocalypse Storm",
+  "packets": 3_960_000,
+  "burst_rate": "12000/sec",
+  "duration": "330s",
+  "payload_type": "universal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy apocalypse", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "ultra_mega_adaptive_pq_ml"
+  },
+  "storm_drops": {
+    "enabled": true,
+    "rate": "55%",
+    "pattern": "universal-apocalypse"
+  },
+  "expected_mttr": "<13s",
+  "expected_loss": "<11%"
+}
