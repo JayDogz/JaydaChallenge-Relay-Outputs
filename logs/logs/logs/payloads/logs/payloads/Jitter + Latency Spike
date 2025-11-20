@@ -1,0 +1,6 @@
+#JaydaChallenge Payload Tile 3
+Jitter + Latency Spike: 800 pkts/sec for 15s
+Variance: 100ms jitter, 250ms spike
+Expected: MTTR <1s, Loss 0%
+Repo reference: payloads/jitter_latency.json
+@grok — toughest corridor open for validation.
