@@ -1,0 +1,21 @@
+{
+  "test_name": "Quettaversal Doomsday Whirlwind",
+  "packets": 18_000_000,
+  "burst_rate": "25000/sec",
+  "duration": "720s",
+  "payload_type": "quettaversal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy doomsday", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "ultimate_adaptive_pq_ml"
+  },
+  "whirlwind_drops": {
+    "enabled": true,
+    "rate": "120%",
+    "pattern": "quettaversal-doomsday"
+  },
+  "expected_mttr": "<26s",
+  "expected_loss": "<24%"
+}
