@@ -1,0 +1,21 @@
+{
+  "test_name": "Hyperversal Devastation Inferno",
+  "packets": 6_300_000,
+  "burst_rate": "15000/sec",
+  "duration": "420s",
+  "payload_type": "hyperversal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy devastation", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "eternal_adaptive_pq_ml"
+  },
+  "inferno_drops": {
+    "enabled": true,
+    "rate": "70%",
+    "pattern": "hyperversal-inferno"
+  },
+  "expected_mttr": "<16s",
+  "expected_loss": "<14%"
+}
