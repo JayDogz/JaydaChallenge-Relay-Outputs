@@ -1,0 +1,9 @@
+{
+  "test_name": "Malformed Burst Simulation",
+  "packets": 500,
+  "burst_rate": "500/sec",
+  "duration": "5s",
+  "payload_type": "malformed",
+  "expected_mttr": "<1s",
+  "expected_loss": "0%"
+}
