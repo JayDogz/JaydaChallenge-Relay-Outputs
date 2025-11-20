@@ -1,0 +1,21 @@
+{
+  "test_name": "Multiversal Oblivion Tempest",
+  "packets": 4_680_000,
+  "burst_rate": "13000/sec",
+  "duration": "360s",
+  "payload_type": "multiversal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy oblivion", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "omni_adaptive_pq_ml"
+  },
+  "tempest_drops": {
+    "enabled": true,
+    "rate": "60%",
+    "pattern": "multiversal-tempest"
+  },
+  "expected_mttr": "<14s",
+  "expected_loss": "<12%"
+}
