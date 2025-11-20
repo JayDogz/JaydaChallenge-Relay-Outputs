@@ -1,0 +1,8 @@
+{
+  "test_name": "Flood Simulation 1",
+  "packets": 1000,
+  "burst_rate": "1000/sec",
+  "duration": "10s",
+  "expected_mttr": "<1s",
+  "expected_loss": "0%"
+}
