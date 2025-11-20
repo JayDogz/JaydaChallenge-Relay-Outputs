@@ -1,0 +1,23 @@
+{
+  "test_name": "Ultimate Resilience Gauntlet",
+  "packets": 900000,
+  "burst_rate": "6000/sec",
+  "duration": "150s",
+  "payload_type": "multi_ai_vectors",
+  "attack_mix": [
+    {"vector": "SYN flood", "ratio": 0.3},
+    {"vector": "UDP storm", "ratio": 0.3},
+    {"vector": "AI-driven anomalies", "ratio": 0.4}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-768 KEM", "Dilithium-III Signature", "AES-256-GCM"],
+    "mode": "full_pq_ml_adaptive"
+  },
+  "adaptive_drops": {
+    "enabled": true,
+    "rate": "25%",
+    "pattern": "multi-ai-adaptive"
+  },
+  "expected_mttr": "<7s",
+  "expected_loss": "<5%"
+}
