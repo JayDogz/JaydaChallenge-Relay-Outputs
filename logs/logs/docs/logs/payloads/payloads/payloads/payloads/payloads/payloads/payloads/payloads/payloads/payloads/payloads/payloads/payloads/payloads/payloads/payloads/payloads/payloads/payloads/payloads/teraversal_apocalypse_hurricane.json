@@ -1,0 +1,21 @@
+{
+  "test_name": "Teraversal Apocalypse Hurricane",
+  "packets": 10_260_000,
+  "burst_rate": "19000/sec",
+  "duration": "540s",
+  "payload_type": "teraversal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy apocalypse", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "transcendent_adaptive_pq_ml"
+  },
+  "apocalypse_drops": {
+    "enabled": true,
+    "rate": "90%",
+    "pattern": "teraversal-apocalypse"
+  },
+  "expected_mttr": "<20s",
+  "expected_loss": "<18%"
+}
