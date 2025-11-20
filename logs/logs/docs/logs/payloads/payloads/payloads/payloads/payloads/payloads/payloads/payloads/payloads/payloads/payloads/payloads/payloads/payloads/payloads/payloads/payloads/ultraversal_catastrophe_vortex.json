@@ -1,0 +1,21 @@
+{
+  "test_name": "Ultraversal Catastrophe Vortex",
+  "packets": 7_200_000,
+  "burst_rate": "16000/sec",
+  "duration": "450s",
+  "payload_type": "ultraversal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy catastrophe", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "immortal_adaptive_pq_ml"
+  },
+  "vortex_drops": {
+    "enabled": true,
+    "rate": "75%",
+    "pattern": "ultraversal-vortex"
+  },
+  "expected_mttr": "<17s",
+  "expected_loss": "<15%"
+}
