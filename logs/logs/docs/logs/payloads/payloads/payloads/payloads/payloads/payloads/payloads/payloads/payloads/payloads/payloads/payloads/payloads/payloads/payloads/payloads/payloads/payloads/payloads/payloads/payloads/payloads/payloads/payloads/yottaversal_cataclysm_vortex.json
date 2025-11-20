@@ -1,0 +1,21 @@
+{
+  "test_name": "Yottaversal Cataclysm Vortex",
+  "packets": 15_180_000,
+  "burst_rate": "23000/sec",
+  "duration": "660s",
+  "payload_type": "yottaversal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy cataclysm", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "eternal_adaptive_pq_ml"
+  },
+  "vortex_drops": {
+    "enabled": true,
+    "rate": "110%",
+    "pattern": "yottaversal-cataclysm"
+  },
+  "expected_mttr": "<24s",
+  "expected_loss": "<22%"
+}
