@@ -1,0 +1,11 @@
+{
+  "test_name": "Extreme Jitter and Latency Storm",
+  "packets": 1200,
+  "burst_rate": "1200/sec",
+  "duration": "20s",
+  "payload_type": "jitter_latency",
+  "latency_spike_ms": 500,
+  "jitter_variance_ms": 300,
+  "expected_mttr": "<1s",
+  "expected_loss": "0%"
+}
