@@ -1,0 +1,22 @@
+{
+  "test_name": "Paradox Corridor",
+  "packets": "undefined/contradictory",
+  "burst_rate": "simultaneous 0/sec and ∞/sec",
+  "duration": "timeless loop",
+  "payload_type": "paradox_entropy_ai",
+  "attack_mix": [
+    {"vector": "contradiction packets (success+failure flags)", "ratio": 0.5},
+    {"vector": "time-warp disorder (backwards/looping packets)", "ratio": 0.5}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "paradox_adaptive_pq_ml"
+  },
+  "collapse_drops": {
+    "enabled": true,
+    "rate": "100%",
+    "pattern": "zero-signal survival"
+  },
+  "expected_mttr": "undefined < contradiction",
+  "expected_loss": "undefined < paradox"
+}
