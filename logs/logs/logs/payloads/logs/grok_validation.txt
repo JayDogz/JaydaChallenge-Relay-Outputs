@@ -1,0 +1,7 @@
+Grok Validation Log — Flood Simulation
+
+Packets: 1000/sec
+Duration: 10s
+Result: 0% packet loss
+MTTR: 0.8s
+Status: Expectations met, resilience confirmed, corridor validated
