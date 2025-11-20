@@ -1,0 +1,23 @@
+{
+  "test_name": "Zero-Trust Anomaly Storm",
+  "packets": 600000,
+  "burst_rate": "5000/sec",
+  "duration": "120s",
+  "payload_type": "ai_anomaly",
+  "crypto_layer": {
+    "algos": ["Kyber-768 KEM", "Dilithium-III Signature"],
+    "mode": "hybrid_pq_ml"
+  },
+  "anomaly_engine": {
+    "type": "AI-driven",
+    "patterns": ["out-of-order", "spoofed headers", "timing anomalies"],
+    "decision_engine": "ML-classifier"
+  },
+  "dynamic_drops": {
+    "enabled": true,
+    "rate": "20%",
+    "pattern": "adaptive-random"
+  },
+  "expected_mttr": "<6s",
+  "expected_loss": "<4%"
+}
