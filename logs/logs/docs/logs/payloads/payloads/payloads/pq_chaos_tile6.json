@@ -1,0 +1,23 @@
+{
+  "test_name": "Quantum-Resistant Chaos",
+  "packets": 112500,
+  "burst_rate": "2500/sec",
+  "duration": "45s",
+  "payload_type": "pq_mix",
+  "pq_mix": [
+    {"algo": "Kyber-768 KEM", "ratio": 0.6},
+    {"algo": "Dilithium-III Signature", "ratio": 0.4}
+  ],
+  "random_drops": {
+    "enabled": true,
+    "rate": "5%",
+    "pattern": "poisson"
+  },
+  "key_rotation": {
+    "enabled": true,
+    "interval_s": 7,
+    "jitter_ms": 75
+  },
+  "expected_mttr": "<3s",
+  "expected_loss": "<1%"
+}
