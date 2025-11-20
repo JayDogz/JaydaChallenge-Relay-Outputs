@@ -1,0 +1,22 @@
+{
+  "test_name": "Multi-Vector DoS Swarm",
+  "packets": 360000,
+  "burst_rate": "4000/sec",
+  "duration": "90s",
+  "payload_type": "hybrid_ddos",
+  "attack_mix": [
+    {"vector": "SYN flood", "ratio": 0.5},
+    {"vector": "UDP storm", "ratio": 0.5}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-768 KEM", "Dilithium-III Signature"],
+    "mode": "post-quantum"
+  },
+  "adaptive_drops": {
+    "enabled": true,
+    "rate": "15%",
+    "pattern": "hybrid-random"
+  },
+  "expected_mttr": "<5s",
+  "expected_loss": "<3%"
+}
