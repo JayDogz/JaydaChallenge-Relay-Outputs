@@ -1,0 +1,20 @@
+{
+  "test_name": "AI-Driven Adaptive Attack",
+  "packets": 180000,
+  "burst_rate": "3000/sec",
+  "duration": "60s",
+  "payload_type": "ml_dynamic",
+  "encryption_shift": {
+    "algos": ["AES-256-GCM", "Kyber-768 KEM", "Dilithium-III"],
+    "pattern": "adaptive",
+    "decision_engine": "ML-classifier",
+    "shift_interval_s": 10
+  },
+  "adaptive_drops": {
+    "enabled": true,
+    "rate": "10%",
+    "pattern": "reinforcement-learning"
+  },
+  "expected_mttr": "<4s",
+  "expected_loss": "<2%"
+}
