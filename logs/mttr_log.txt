@@ -1,0 +1,2 @@
+Timestamp           | MTTR (s) | Packet Loss (%) | Fidelity
+2025-11-19 22:35    | 0.62     | 0                | 1.00
