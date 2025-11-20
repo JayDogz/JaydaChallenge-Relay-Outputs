@@ -1,0 +1,22 @@
+{
+  "test_name": "Quantum-AI Hybrid Assault",
+  "packets": 1_260_000,
+  "burst_rate": "7000/sec",
+  "duration": "180s",
+  "payload_type": "quantum_ai",
+  "attack_mix": [
+    {"vector": "quantum-simulated breaks", "ratio": 0.5},
+    {"vector": "AI-driven anomalies", "ratio": 0.5}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "adaptive_pq_ml"
+  },
+  "adaptive_drops": {
+    "enabled": true,
+    "rate": "30%",
+    "pattern": "quantum-ai-adaptive"
+  },
+  "expected_mttr": "<8s",
+  "expected_loss": "<6%"
+}
