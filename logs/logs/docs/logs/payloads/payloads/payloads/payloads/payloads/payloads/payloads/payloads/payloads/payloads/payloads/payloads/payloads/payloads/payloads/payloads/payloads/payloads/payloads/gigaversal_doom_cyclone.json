@@ -1,0 +1,21 @@
+{
+  "test_name": "Gigaversal Doom Cyclone",
+  "packets": 9_180_000,
+  "burst_rate": "18000/sec",
+  "duration": "510s",
+  "payload_type": "gigaversal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy doom", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "celestial_adaptive_pq_ml"
+  },
+  "cyclone_drops": {
+    "enabled": true,
+    "rate": "85%",
+    "pattern": "gigaversal-cyclone"
+  },
+  "expected_mttr": "<19s",
+  "expected_loss": "<17%"
+}
