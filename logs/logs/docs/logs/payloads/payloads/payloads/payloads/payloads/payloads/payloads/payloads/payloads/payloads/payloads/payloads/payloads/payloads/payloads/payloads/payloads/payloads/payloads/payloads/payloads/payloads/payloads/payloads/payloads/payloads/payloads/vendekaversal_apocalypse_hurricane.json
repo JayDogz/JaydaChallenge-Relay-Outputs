@@ -1,0 +1,21 @@
+{
+  "test_name": "Vendekaversal Apocalypse Hurricane",
+  "packets": 19_500_000,
+  "burst_rate": "26000/sec",
+  "duration": "750s",
+  "payload_type": "vendekaversal_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy apocalypse", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "transcendent_adaptive_pq_ml"
+  },
+  "hurricane_drops": {
+    "enabled": true,
+    "rate": "125%",
+    "pattern": "vendekaversal-apocalypse"
+  },
+  "expected_mttr": "<27s",
+  "expected_loss": "<25%"
+}
