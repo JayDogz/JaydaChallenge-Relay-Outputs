@@ -1,0 +1,21 @@
+{
+  "test_name": "Galactic Mayhem Maelstrom",
+  "packets": 2_700_000,
+  "burst_rate": "10000/sec",
+  "duration": "270s",
+  "payload_type": "galactic_entropy_ai",
+  "attack_mix": [
+    {"vector": "quantum-AI entropy mayhem", "ratio": 1.0}
+  ],
+  "crypto_layer": {
+    "algos": ["Kyber-1024 KEM", "Dilithium-V Signature", "AES-256-GCM"],
+    "mode": "super_adaptive_pq_ml"
+  },
+  "maelstrom_drops": {
+    "enabled": true,
+    "rate": "45%",
+    "pattern": "galactic-maelstrom"
+  },
+  "expected_mttr": "<11s",
+  "expected_loss": "<9%"
+}
