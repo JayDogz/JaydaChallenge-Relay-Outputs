@@ -1,0 +1,11 @@
+{
+  "test_name": "Jitter and Latency Spike Simulation",
+  "packets": 800,
+  "burst_rate": "800/sec",
+  "duration": "15s",
+  "payload_type": "jitter_latency",
+  "latency_spike_ms": 250,
+  "jitter_variance_ms": 100,
+  "expected_mttr": "<1s",
+  "expected_loss": "0%"
+}
